@@ -20,10 +20,9 @@ Route::middleware('auth')->group(function () {
         Route::get('/weight_logs', [Weight_logController::class, 'weight_logs']);
         Route::get('/weight_logs/goal_setting', [Weight_logController::class, 'goalSetting']);
         Route::get('/weight_logs/goal_update', [Weight_logController::class, 'goalUpdate']);
+        Route::get('/weight_logs/{weightLogId}', [Weight_logController::class, 'detail'])->name('weight_log.weightLogId');
+        Route::patch('/weight_logs/{weightLogId}/update', [Weight_logController::class, 'update'])->name('weight_log.weightLogId.update');
 });
 
 // Route::get('/weight_logs/create', [Weight_logController::class, 'create']);
 // Route::post('/weight_logs/create', [Weight_logController::class, 'create']);
-
-Route::get('/weight_logs/{weightLogId}', [Weight_logController::class, 'detail'])->name('weight_log.weightLogId');
-Route::patch('/weight_logs/{weightLogId}/update', [Weight_logController::class, 'update'])->name('product.productId.update');

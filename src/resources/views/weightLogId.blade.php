@@ -108,7 +108,7 @@
             @csrf
             <div class=" detail-button__delete">
                 <button class="delete" type="delete">
-                    <img class="delete_icon" src="{{asset('../../storage/app/public/icon.png')}}">
+                    <img class="delete_icon" src="{{asset('storage/icon.png')}}">
                     <input type="hidden" name="" value="">
                 </button>
             </div>

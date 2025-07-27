@@ -120,7 +120,7 @@ return [
         'two-factor' => 'two-factor',
     ],
     'redirects'=>[
-        'login'=>'/weight_log',
+        'login'=>'/weight_logs',
         'logout'=>'/login',
         'register'=>'register/step2'
     ],
