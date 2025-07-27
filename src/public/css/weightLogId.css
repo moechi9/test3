@@ -1,0 +1,93 @@
+.detail-content{
+    width: 100%;
+    padding: 40px 0;
+}
+
+.detail-content_item{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px 10px;
+    border-radius: 5px;
+}
+
+.detail-title_item{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.detail-form,.form__group,.form__group-title,.form__group-content,.form__input--text,.form__input--item,.form__input--item_text{
+    width: 100%;
+}
+
+.form__input--item_unit{
+    width: 90%;
+}
+
+.form__group{
+    margin: 10px 0;
+}
+
+.form__label--item{
+    font-size: 20px;
+}
+
+.form__input--item,.form__input--item_unit,.form__input--item_text{
+    border: 1px solid gray;
+    border-radius: 3px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.form__error{
+    color: red;
+    height: 20px;
+}
+
+.form__input--item_text{
+    height: 70px;
+}
+
+.detail-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.back {
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: rgb(217, 216, 216);
+    border-radius: 5px;
+}
+
+.update {
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 5px;
+    background: linear-gradient(135deg, #8373e9, #ea8bbc);
+    border-radius: 5px;
+}
+
+.detail-button__delete {
+    display: flex;
+    float: right;
+    border: none;
+}
+
+.delete_icon {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+

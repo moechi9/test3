@@ -1,0 +1,32 @@
+.before-login__background{
+    max-width: 1320p;
+    background: linear-gradient(135deg,#988beb,#f4d6ef,#f2b9d6,#c8aeb9);
+    padding: 40px 0;
+}
+
+.before-login__content{
+    width: 35%;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.content-inner{
+    width: 90%;
+    margin: 30px auto;
+}
+
+.content-item__title{
+    margin: 0 auto;
+}
+
+.main-title{
+    display: flex;
+}
+
+.main-title__utilities{
+    font-family: serif;
+    font-size: 40px;
+    color: #f2b9d6;
+    margin: 30px auto 0;
+}

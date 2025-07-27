@@ -1,0 +1,38 @@
+.header {
+    background-color: white;
+    border-bottom: 2px solid gray;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header__logo{
+    font-family: serif;
+    font-size: 40px;
+    color: #f2b9d6;
+    margin: 0;
+}
+
+.header-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.setting__button,.logout__button{
+    text-decoration: none;
+    border:1px,solid,gray;
+    background-color: rgba(242, 245, 247, 0.959);
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin: 5px 5px;
+}
+
+.management-list__background{
+    background: rgba(242, 245, 247, 0.959);
+}
+

@@ -1,0 +1,58 @@
+.sub-title{
+    display: flex;
+}
+
+.sub-title_item {
+    margin: 0 auto 10px;
+    font-family: serif;
+    font-size: 30px;
+}
+
+.content-item__input,
+.form__group {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.form__group-title,
+.form__group-content,
+.form__input--text {
+    width: 100%;
+}
+
+.form__label--item {
+    font-weight: bold;
+}
+
+.form__input--text {
+    height: 40px;
+}
+
+.form__error {
+    color: red;
+    height: 20px;
+}
+
+.content-item__button{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.button__next {
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    margin: 5px auto;
+    border: none;
+    background: linear-gradient(135deg, #8373e9, #ea8bbc);
+}
+
+.button__register-page {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(102, 167, 242);
+    font-family: serif;
+}
