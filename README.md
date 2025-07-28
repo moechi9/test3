@@ -1,4 +1,4 @@
-# 確認テストPiGLy
+# 確認テスト PiGLy
 
 ## 環境構築
 
@@ -6,7 +6,7 @@
 
 - 1.git clone git@github.com:git@github.com:Estra-Coachtech/test3.git
 - 2.cd test3
-- 3.DockerDesktopアプリを立ち上げる
+- 3.DockerDesktop アプリを立ち上げる
 - 4.docker-compose up -d --build
 
 ### Laravel 環境構築
@@ -30,11 +30,11 @@ DB_PASSWORD=laravel_pass
 
 ## 使用技術（実行環境）
 
-- php:7.4.9
+- php:8.1
 - laravel:8.83.29
 - mysql:8.0.26
 
-## ER図
+## ER 図
 
 ![ER図](ER.png)
 
